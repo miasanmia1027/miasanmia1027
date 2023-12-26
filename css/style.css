@@ -1,7 +1,9 @@
 @import "reset.css"; 
 @import "status-bar.css";
 @import "login.css";
+/* component */
 @import "welcome.css";
+/* screen*/
 body{
     font-family: 'Merriweather', serif;
     font-family: 'Oswald', sans-serif;

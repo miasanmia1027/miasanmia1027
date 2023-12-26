@@ -30,11 +30,16 @@
       </p>
     </header>
 
-    <form class="login-form">
-      <input type="text" placeholder="email or phone number" />
-      <input type="password" placeholder="password" />
-      <input type="button" value="log in" />
-      <input type="button" value="sign up" />
+    <form action="friend.html" method="get" class="login-form">
+      <input
+        name="username"
+        type="text"
+        required
+        placeholder="email or phone number"
+      />
+      <input name="password" type="password" required placeholder="password" />
+      <input type="submit" value="log in" />
+      <input type="submit" value="sign up" />
       <a href="#">find kakao account or password</a>
     </form>
 
